@@ -1,28 +1,48 @@
 public class BudgetData {
 
-    private double moneyThisMonth;
-    private double moneySpentOnFood;
-    private double moneySpentOnbills;
-    private double moneySpentOnJoy;
-    private int months;
+    private String moneyThisMonth;
+    private String moneySpentOnFood;
+    private String moneySpentOnbills;
+    private String moneySpentOnJoy;
+    private String months;
 
-    public double getMoneyThisMonth() {
+    public void setMoneyThisMonth(String moneyThisMonth) {
+        this.moneyThisMonth = moneyThisMonth;
+    }
+
+    public void setMoneySpentOnFood(String moneySpentOnFood) {
+        this.moneySpentOnFood = moneySpentOnFood;
+    }
+
+    public void setMoneySpentOnbills(String moneySpentOnbills) {
+        this.moneySpentOnbills = moneySpentOnbills;
+    }
+
+    public void setMoneySpentOnJoy(String moneySpentOnJoy) {
+        this.moneySpentOnJoy = moneySpentOnJoy;
+    }
+
+    public void setMonths(String months) {
+        this.months = months;
+    }
+
+    public String getMoneyThisMonth() {
         return moneyThisMonth;
     }
 
-    public double getMoneySpentOnFood() {
+    public String getMoneySpentOnFood() {
         return moneySpentOnFood;
     }
 
-    public double getMoneySpentOnbills() {
+    public String getMoneySpentOnbills() {
         return moneySpentOnbills;
     }
 
-    public double getMoneySpentOnJoy() {
+    public String getMoneySpentOnJoy() {
         return moneySpentOnJoy;
     }
 
-    public int getMonths() {
+    public String getMonths() {
         return months;
     }
 }
