@@ -1,13 +1,10 @@
 public class BudgetData {
 
-    private String moneyThisMonth;
     private String moneySpentOnFood;
     private String moneySpentOnbills;
     private String moneySpentOnJoy;
-    private String months;
 
     public void setMoneyThisMonth(String moneyThisMonth) {
-        this.moneyThisMonth = moneyThisMonth;
     }
 
     public void setMoneySpentOnFood(String moneySpentOnFood) {
@@ -22,14 +19,6 @@ public class BudgetData {
         this.moneySpentOnJoy = moneySpentOnJoy;
     }
 
-    public void setMonths(String months) {
-        this.months = months;
-    }
-
-    public String getMoneyThisMonth() {
-        return moneyThisMonth;
-    }
-
     public String getMoneySpentOnFood() {
         return moneySpentOnFood;
     }
@@ -40,9 +29,5 @@ public class BudgetData {
 
     public String getMoneySpentOnJoy() {
         return moneySpentOnJoy;
-    }
-
-    public String getMonths() {
-        return months;
     }
 }
